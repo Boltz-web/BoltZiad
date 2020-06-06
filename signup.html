@@ -1,0 +1,217 @@
+<!Doctyple html>
+<html>
+ <head>
+  <title> ⚡ Boltz Sign Up ⚡ </title>
+  <link rel="shortcut icon" type="image/jpg" href="img/Boltz.jpg">
+ </head>
+ <!-------------------------CSS--------------------------->
+   <style>
+    body{
+	  margin:0;
+	  padding:0;
+	  background:url(img/thunderb.jpg) no-repeat;
+	  background-size:cover;
+	}
+	.navbar{
+      height:100px;
+	  width:100%;
+	  background:rgba(128,0,128,0.65);
+	  box-shadow: 0px 0px 20px purple;
+	}
+	.navbar h1{
+	  font-size:250%;
+	  position:absolute;
+	  padding:0px 0px;
+	  transform:translate(-50%,-50%);
+	  top:3%;
+	  left:50%;
+	  text-align:center;
+	  color:white;
+	  background:#909090;
+	  border-radius:15px;
+	  padding:2px 2px;
+	}
+	.navbar h2{
+     color:#AFAFAF;
+	 font-size:15px;
+	 position:absolute;
+	 left:20px;
+	 top:-7px;
+	}
+	.navbar a button{
+	  color:grey;
+	  font-size:15px;
+	  font-weight:bold;
+	  font-style:italic;
+	  height:50px;
+	  width:200px;
+	  background:#ffffff;
+	  box-shadow: 0px 0px 10px white;
+	  position:absolute;
+	  padding:0px 0px;
+	  left:10px;
+	  top:25px;
+	  outline:none;
+	  border-radius:25px;
+	  transition:0.7s;
+	  cursor:pointer;
+	}
+	.navbar a button:hover{
+	  color:black;
+	  box-shadow: 0px 0px 15px grey;
+	  background:grey;
+	  transition:0.7s;
+	}
+    .contact-form{
+	  width:85%;
+	  max-width:500px;
+	  max-height:800px;
+	  background:rgba(255,255,255,0.50);
+	  position:relative;
+	  transform:translate(-50%,-50%);
+	  top:45%;
+	  left:50%;
+	  padding:30px 40px;
+	  border-radius:30px 30px;
+	  text-align:center
+	  box-shadow: 0px 0px 30px black;
+	  font-family: "Monserrat" ,sans-serif;
+	  list-style-type:none;
+	}
+	.contact-form h1{
+	  color:white;
+	  font-weight:bold;
+	  text-align:center
+	}
+	.contact-form h2{
+	  color:black;
+	  font-weight:bold;
+	  text-align:center
+	}
+	.txt{
+	  border:1px solid black;
+	  margin: 10px 0;
+	  padding:12px 18px;
+	  border-radius:8px;
+	}
+	.txt label{
+	  display:block;
+	  text-align:left;
+	  color:#333333;
+	  text-transform:uppercase;
+	  font-size:12px;
+	}
+	.txt input,.txt textarea{
+	  width:100%;
+	  border:none;
+	  background:rgba(255,255,255,0);
+	  font-size:16px;
+	  font-weight:bold;
+	  margin-top:8px;
+	}
+	.contact-form ul li a{
+	  list-style-type:none;
+	  font-weight:bold;
+	  text-decoration:none;
+	  color:#5C5C5C;
+	}
+	.contact-form ul li a:hover{
+	  color:blue;
+	  list-style-type:none;
+	}
+	.btn{
+	  display:inline-block;
+	  background:#5C5C5C;
+	  padding:14px 0;
+	  color:white;
+	  text-transform:uppercase;
+	  border-radius:16px;
+	  cursor:pointer;
+	  margin-top:8px;
+	  width:100%;
+	  transition:0.5s;
+	}
+	.btn:hover{
+	  transition:0.5;
+	  color:purple;
+	  background:grey;
+	  border-radius:60px
+	}
+	.btn2{
+	  font-weight:bold;
+	  text-decoration:none;
+	  text-align:center
+	  transform:translate(-50%,-50%);
+	  left:15%;
+	  padding:14px 0;
+	  color:#5C5C5C;
+	  position:relative;
+	}
+	.btn2:hover{
+	  color:blue;
+	}
+   </style>
+  <body>
+ <nav class="navbar">
+ <h1> ⚡ Boltz ⚡ </h1>
+ <h2> Boltz © 2020  Copyright© The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements </h2>
+ <a href="index.html"> 
+ <button> ⟵ Back to Homepage </button>
+ </a> 
+ </nav>
+ <div class="contact-form">
+   <h1>Sign Up</h1>
+   <h2>Please fill up the info</h2>
+<!--------------Usermame Section-------------->
+   <div class="txt">
+     <label>Username :</label>
+	 <input type="text" name=value="" placeholder="Enter Your Username">
+   </div>
+<!-------------------------------------------->
+
+<!--------------Email Section----------------->
+   <div class="txt">
+     <label>Email :</label>
+	 <input type="email" name="" value="" placeholder="Enter Your Email">
+   </div>
+<!-------------------------------------------->
+
+<!-------------Password Section--------------->
+   <div class="txt">
+     <label>Password :</label>
+	 <input type="password" name="" value="" placeholder="Enter Your Password">
+   </div>
+<!-------------------------------------------->
+
+<!-------------Password conformation Section-->
+   <div class="txt">
+     <label>Password Confirmation :</label>
+	 <input type="password" name="" value="" placeholder="Enter Your Password Confirmation">
+   </div>
+<!-------------------------------------------->
+
+<!-------------Name--------------------------->
+   <div class="txt">
+     <label>Your Full Name :</label>
+	 <input type="text" name="" value="" placeholder="Enter Your Full Name">
+   </div>
+<!-------------------------------------------->
+
+<!-------------Country------------------------>
+   <div class="txt">
+     <label>Your Country :</label>
+	 <input type="text" name="" value="" placeholder="Enter Country">
+   </div>
+<!-------------------------------------------->
+
+<!-------------phone number------------------->
+   <div class="txt">
+     <label>Your Phone Number :</label>
+	 <input type="text" name="" value="" placeholder="(optional)">
+   </div>
+<!-------------------------------------------->
+   <button class="btn" >Sign Up</button>
+   <li><a href="login.html" class="btn2">Already have an Email? Click here to login</a></li>
+   </div>
+  </body>
+</html>
